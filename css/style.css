@@ -217,8 +217,9 @@ a:hover {
 }
 
 .home .image img {
-  width: 100%;
+  width: 90%;
   padding: 1rem;
+  float: left;
   animation: imgRotate 50s linear infinite;
 }
 
