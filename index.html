@@ -50,8 +50,11 @@
 
                </nav>
                <div id="menu-btn" class="fas fa-bars"></div>
-               <a data-toggle="modal" class="shop" data-target="#cart"><i class="fa fa-shopping-cart"
-                     style="padding-right: 1rem;"></i><span class="badge badge-danger total-count"></span></a>
+               <div class='phone'>
+                  <a data-toggle="modal" class="shop circle button" id="button-0" data-target="#cart"><i
+                        class="fa fa-shopping-cart" style="padding-right: 5px;"></i><span
+                        class="badge badge-danger total-count"></span></a>
+               </div>
                <!-- -->
             </div>
 
@@ -128,21 +131,74 @@
       <!-- menu section starts  -->
       <!--========== MENÚ ==========-->
       <section class="menu" id="menu">
-         <!-- ESPECIALES -->
+         <!-- CARNES Y PECHUGAS -->
          <div class="heading" style="margin-top:8rem; margin-bottom: -5rem">
-            <h3 class="title-menu">ALMUERZOS</h3>
-            <h3 class="sub-menu">Especiales</h3>
+            <h3 class="title-menu">CARNES &</h3>
+            <h3 class="sub-menu">Pechugas</h3>
          </div>
-         <div id="customers-testimonials-pizz" class="owl-carousel owl-theme owl-carousel-pizz">
+         <div id="customers-testimonials-1" class="owl-carousel owl-theme owl-carousel-1">
+            <!-- CARNES -->
+            <!-- <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/carnes/churrasco-norteno.jpg" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Churrasco Norteño</b></h3>
+                  <p class="menu__detail">En salsa de champiñones, maicitos y queso servida con vegetales y papa criolla.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$26.000</b>
+                        </p>
+                        <a data-name="Churrasco_Norteño" data-price="26000" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/especiales/churrasco.png" alt="" class="menu__img">
+                  <img src="images/menu/carnes/churrasco-mexicano.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Churrasco Mexicano</b></h3>
+                  <p class="menu__detail">Acompañado de frijol refrito, pico de gallo, verduras y guacamole.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$26.000</b>
+                        </p>
+                        <a data-name="Churrasco_Mexicano" data-price="26000" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/carnes/churrasco.png" alt="" class="menu__img">
                   <h3 class="menu__name"><b>Churrasco</b></h3>
+                  <p class="menu__detail">350gr asado a la parilla con el autentico sabor mexicano, servido con papa a la francesa y guacamole.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$23.000</b>
+                        </p>
+                        <a data-name="Churrasco" data-price="23000" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/carnes/costillas_bbq.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Costillitas BBQ</b></h3>
+                  <p class="menu__detail">Servidas con papa criolla, pico de gallo, guacamole, lechuga, tomate y toston.</p>
                   <div class="container">
                      <div class="row details">
                         <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$18.000</b>
                         </p>
-                        <a data-name="Churrasco" data-price="18000" class="add-to-cart btn btn-primary"
+                        <a data-name="Costillitas_BBQ" data-price="18000" class="add-to-cart btn btn-primary"
                            style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
@@ -152,13 +208,14 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/especiales/mojarra.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Mojarra</b></h3>
+                  <img src="images/menu/carnes/costillitas-jalisco.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Costillitas Jalisco</b></h3>
+                  <p class="menu__detail">Servidas con toston, totopos, frijol refrito, papa criolla, pico de gallo, guacamole, lechuga, tomate y salsa al gusto.</p>
                   <div class="container">
                      <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$18.000</b>
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$22.000</b>
                         </p>
-                        <a data-name="Mojarra" data-price="18000" class="add-to-cart btn btn-primary"
+                        <a data-name="Costillitas_Jalisco" data-price="22000" class="add-to-cart btn btn-primary"
                            style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
@@ -168,13 +225,48 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/especiales/bandeja_paisa.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Bandeja Paisa</b></h3>
+                  <img src="images/menu/carnes/plato-ranchero.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Plato Ranchero</b></h3>
+                  <p class="menu__detail">Exquisito plato acompañado de trocito de 3 carnes (res, pollo y chorizo) frijol refrito, maíz tierno, verduras y guacamole.</p>
                   <div class="container">
                      <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$15.000</b>
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$20.000</b>
                         </p>
-                        <a data-name="Bandeja_Paisa" data-price="15000" class="add-to-cart btn btn-primary"
+                        <a data-name="Plato_Ranchero" data-price="20000" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/carnes/plato-mixto.jpg" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Plato Mixto</b></h3>
+                  <p class="menu__detail">2 tacos, 1 burro, 1 quesadilla, frijol refrito y guacamole.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$23.000</b>
+                        </p>
+                        <a data-name="Plato_Mixto" data-price="23000" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/carnes/picada-criolla-x2.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Picada Criolla x2</b></h3>
+                  <p class="menu__detail">Churrasco, costillas BBQ, pollo, patacón, queso campesino, papa francesa, papa criolla, pico de gallo y guacamole.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$37.000</b>
+                        </p>
+                        <a data-name="Picada_Criolla_x2" data-price="37000" class="add-to-cart btn btn-primary"
                            style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
@@ -184,13 +276,83 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/especiales/trucha.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Trucha</b></h3>
+                  <img src="images/menu/carnes/picada-criolla-x3.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Picada Criolla x3</b></h3>
+                  <p class="menu__detail">Churrasco, costillas BBQ, pollo, patacón, queso campesino, papa francesa, papa criolla, pico de gallo y guacamole.</p>
                   <div class="container">
                      <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$18.000</b>
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$52.000</b>
                         </p>
-                        <a data-name="Trucha" data-price="18000" class="add-to-cart btn btn-primary"
+                        <a data-name="Picada_Criolla_x3" data-price="52000" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- PECHUGAS -->
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/pechugas/pechuga-nortena.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Pechuga Norteña</b></h3>
+                  <p class="menu__detail">Filete de pollo gratinado, servido en toston, champiñon, maíz tierno, papa criolla, pico de gallo y guacamole.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$26.000</b>
+                        </p>
+                        <a data-name="Pechuga_Norteña" data-price="26000" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/pechugas/pechuga-jalisco.jpg" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Pechuga Jalisco</b></h3>
+                  <p class="menu__detail">Acompañado de frijol refrito, queso gratinado, papa a la francesa, pico de gallo y guacamole.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$26.000</b>
+                        </p>
+                        <a data-name="Pechuga_Jalisco" data-price="26000" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+            <!-- <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/pechugas/pechuga-guadalupe.jpg" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Pechuga Guadalupe</b></h3>
+                  <p class="menu__detail">Pechuga de pollo a la parrilla en salsa enchilada roja, con tocineta, papa a la francesa y vegetales.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$26.000</b>
+                        </p>
+                        <a data-name="Pechuga_Guadalupe" data-price="26000" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/pechugas/filete-de-pollo.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Filete de Pollo</b></h3>
+                  <p class="menu__detail">Exquisita pechuga de pollo con nuestro sabor inconfundible acompañado de papa a la francesa y vegetales.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$22.000</b>
+                        </p>
+                        <a data-name="Filete_de_Pollo" data-price="22000" class="add-to-cart btn btn-primary"
                            style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
@@ -200,93 +362,14 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/especiales/viudo_capaz.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Viudo Capaz</b></h3>
+                  <img src="images/menu/pechugas/pechuga-texana.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Pechuga Texana</b></h3>
+                  <p class="menu__detail">Exquisita pechuga con queso, tocineta, jalapeños y papa a la fracesa.</p>
                   <div class="container">
                      <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$18.000</b>
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$26.000</b>
                         </p>
-                        <a data-name="Viudo_Capaz" data-price="18000" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
-                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="menu__content">
-                  <img src="images/menu/especiales/costillas_bbq.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Costillas BBQ</b></h3>
-                  <div class="container">
-                     <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$18.000</b>
-                        </p>
-                        <a data-name="Costillas_BBQ" data-price="18000" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
-                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="menu__content">
-                  <img src="images/menu/especiales/arroz_oriental.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Arroz Oriental Personal</b></h3>
-                  <div class="container">
-                     <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$15.000</b>
-                        </p>
-                        <a data-name="Arroz_Orienta_Personal" data-price="15000" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
-                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="menu__content">
-                  <img src="images/menu/especiales/bandeja_paisa.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Mini Bandeja Paisa</b></h3>
-                  <div class="container">
-                     <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b>
-                        </p>
-                        <a data-name="Mini_Bandeja_Paisa" data-price="10000" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
-                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="menu__content">
-                  <img src="images/menu/especiales/arroz_con_pollo.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Arroz con Pollo</b></h3>
-                  <div class="container">
-                     <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$15.000</b>
-                        </p>
-                        <a data-name="Arroz_con_Pollo" data-price="15000" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
-                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="menu__content">
-                  <img src="images/menu/especiales/pasta_marinera.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Pasta Marinera</b></h3>
-                  <div class="container">
-                     <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$16.000</b>
-                        </p>
-                        <a data-name="Pasta_Marinera" data-price="16000" class="add-to-cart btn btn-primary"
+                        <a data-name="Pechuga_Texana" data-price="26000" class="add-to-cart btn btn-primary"
                            style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
@@ -295,24 +378,25 @@
                </div>
             </div>
          </div>
-         <!-- END ESPECIALES -->
+         <!-- END CARNES Y PECHUGAS -->
 
-         <!-- CORRIENTES -->
+         <!-- BURRITOS Y TACOS -->
          <div class="heading" style="margin-bottom: -5rem">
-            <h3 class="title-menu">ALMUERZOS</h3>
-            <h3 class="sub-menu">Corrientes</h3>
+            <h3 class="title-menu">TACOS &</h3>
+            <h3 class="sub-menu">Burritos</h3>
          </div>
-         <div id="customers-testimonials-esp" class="owl-carousel owl-theme owl-carousel-esp">
+         <div id="customers-testimonials-2" class="owl-carousel owl-theme owl-carousel-2">
+            <!-- TACOS -->
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/corrientes/corriente_pescado.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo Corriente de Pescado</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
+                  <img src="images/menu/tacos/taco-pollo-con-chapi.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Taco pollo y champiñón</b></h3>
+                  <p class="menu__detail">En tortillas tostadas con pollo, champiñones, queso, lechuga y pico de gallo</p>
                   <div class="container">
                      <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b>
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$18.000</b>
                         </p>
-                        <a data-name="Almuerzo_Corriente_de_Pescado" data-price="10000"
+                        <a data-name="Taco_Pollo_y_Champiñón" data-price="18000"
                            class="add-to-cart btn btn-primary" style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
@@ -322,14 +406,14 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_1.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo Corriente con Carne Asada</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
+                  <img src="images/menu/tacos/taco-clasico.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Taco Clásico x2</b></h3>
+                  <p class="menu__detail">Servido de una de nuestras carnes, arroz mexicano y maíz tierno.</p>
                   <div class="container">
                      <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b>
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.500</b>
                         </p>
-                        <a data-name="Almuerzo_Corriente_con_Carne_Asada" data-price="10000"
+                        <a data-name="Taco_Clásico_x2" data-price="17500"
                            class="add-to-cart btn btn-primary" style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
@@ -339,14 +423,14 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_2.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo Corriente de Arroz con Pollo</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
+                  <img src="images/menu/tacos/taco-de-la-casa-x2.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Taco de la Casa x2</b></h3>
+                  <p class="menu__detail">Servido con dos carnes, queso amarillo, tomate, leche ga y buen picante.</p>
                   <div class="container">
                      <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b>
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.500</b>
                         </p>
-                        <a data-name="Almuerzo_Corriente_Arroz_con_Pollo" data-price="10000"
+                        <a data-name="Taco_de_la_Casa_x2" data-price="17500"
                            class="add-to-cart btn btn-primary" style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
@@ -356,14 +440,14 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_3.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo Corriente de Pollo Frito</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
+                  <img src="images/menu/tacos/taco-carnitas-x2.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Taco Carnitas x2</b></h3>
+                  <p class="menu__detail">Servido con carnitas de cerdo, queso blanco, tomate y lechuga.</p>
                   <div class="container">
                      <div class="row details">
-                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b>
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.000</b>
                         </p>
-                        <a data-name="Almuerzo_Corriente_de_Pollo_Frito" data-price="10000"
+                        <a data-name="Taco_Carnitas_x2" data-price="17000"
                            class="add-to-cart btn btn-primary" style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
@@ -373,15 +457,67 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_4.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo corriente 1</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
+                  <img src="images/menu/tacos/taco-jalisco-x2.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Taco Jalisco x2</b></h3>
+                  <p class="menu__detail">En salsa de champiñones, maicitos y queso servida con vegetales y papa criolla.</p>
                   <div class="container">
                      <div class="row details">
-                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b> -->
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.500</b>
                         </p>
-                        <a data-name="Almuerzo_corriente_1" data-price="" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
+                        <a data-name="Taco_Jalisco_x2" data-price="17500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/tacos/taco-hawaiano.jpg" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Taco Hawaiano x2</b></h3>
+                  <p class="menu__detail">Servido con piña, queso y sour cream.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.500</b>
+                        </p>
+                        <a data-name="Taco_Hawaiano_x2" data-price="17500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/tacos/taco-res.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Taco Res</b></h3>
+                  <p class="menu__detail">Servido con carne de res, queso blanco, tomate y lechuga.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.000</b>
+                        </p>
+                        <a data-name="Taco_Res_x2" data-price="17000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- BURRITOS -->
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/burritos/burrito-ranchero.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Burrito Ranchero</b></h3>
+                  <p class="menu__detail">Servido en tortilla de trigo con frijol, chorizo, tocineta, maicitos tiernos, queso, guacamole, tomate y lechuga.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$18.000</b>
+                        </p>
+                        <a data-name="Burrito_Ranchero" data-price="18000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
                      </div>
@@ -390,15 +526,15 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_5.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo corriente 2</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
+                  <img src="images/menu/burritos/burrito-pollo.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Burrito Pollo con Champiñones</b></h3>
+                  <p class="menu__detail">Servido en tortilla de trigo con frijol, chorizo, tocineta, maicitos tiernos, queso, guacamole, tomate y lechuga.</p>
                   <div class="container">
                      <div class="row details">
-                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b> -->
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$18.000</b>
                         </p>
-                        <a data-name="Almuerzo_corriente_2" data-price="" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
+                        <a data-name="Burrito_Ranchero" data-price="18000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
                      </div>
@@ -407,15 +543,49 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_6.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo corriente 3</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
+                  <img src="images/menu/burritos/burrito-mixto.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Burrito Mixto</b></h3>
+                  <p class="menu__detail">Servido de tortilla mexicana con tres carnes, queso, arroz mexicano, guacamole y lechuga.</p>
                   <div class="container">
                      <div class="row details">
-                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b> -->
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$16.500</b>
                         </p>
-                        <a data-name="Almuerzo_corriente_3" data-price="" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
+                        <a data-name="Burrito_Mixto" data-price="16500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/burritos/burrito-choncho.jpg" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Burrito Choncho</b></h3>
+                  <p class="menu__detail">Servido de tortilla mexicana con exquisitas tiras de carne de cerdo especial de la casa, frijol, arroz, queso amarillo, tomate y lechuga.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.500</b>
+                        </p>
+                        <a data-name="Burrito_Choncho" data-price="17500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/burritos/burrito-carnitas.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Burrito Carnitas</b></h3>
+                  <p class="menu__detail">Exclusiva, servida en tortilla mexicana de carnes en tiras, pimentón, cebolla y sabor mexicano.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.500</b>
+                        </p>
+                        <a data-name="Burrito_Carnitas" data-price="17500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
                      </div>
@@ -424,100 +594,15 @@
             </div>
             <div class="item">
                <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_7.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo corriente 4</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
+                  <img src="images/menu/burritos/burrito-clasico.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Burrito Clásico</b></h3>
+                  <p class="menu__detail">Servido con una de nuestras carnes, arroz mexicano, o mazorca tierna, guacamole y verduras.</p>
                   <div class="container">
                      <div class="row details">
-                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b> -->
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.500</b>
                         </p>
-                        <a data-name="Almuerzo_corriente_4" data-price="" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
-                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_8.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo corriente 5</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
-                  <div class="container">
-                     <div class="row details">
-                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b> -->
-                        </p>
-                        <a data-name="Almuerzo_corriente_5" data-price="" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
-                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_9.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo corriente 6</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
-                  <div class="container">
-                     <div class="row details">
-                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b> -->
-                        </p>
-                        <a data-name="Almuerzo_corriente_6" data-price="" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
-                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_10.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo corriente 7</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
-                  <div class="container">
-                     <div class="row details">
-                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b> -->
-                        </p>
-                        <a data-name="Almuerzo_corriente_7" data-price="" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
-                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_11.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo corriente 8</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
-                  <div class="container">
-                     <div class="row details">
-                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b> -->
-                        </p>
-                        <a data-name="Almuerzo_corriente_8" data-price="" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
-                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="menu__content">
-                  <img src="images/menu/corrientes/corrientes_plato_12.png" alt="" class="menu__img">
-                  <h3 class="menu__name"><b>Almuerzo corriente 9</b></h3>
-                  <p class="menu__detail"><b>Con sopa o fruta</b></p>
-                  <div class="container">
-                     <div class="row details">
-                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$10.000</b> -->
-                        </p>
-                        <a data-name="Almuerzo_corriente_9" data-price="" class="add-to-cart btn btn-primary"
-                           style="margin: 1rem !important">
+                        <a data-name="Burrito_Clásico" data-price="17500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
                            <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
                         </a>
                      </div>
@@ -525,14 +610,274 @@
                </div>
             </div>
          </div>
-         <!-- END CORRIENTES -->
+         <!-- END BURRITOS Y TACOS -->
 
-         <!-- MAZOR-PERROS -->
+         <!-- MAZORCADA Y PATACONES -->
          <div class="heading" style="margin-bottom: -5rem">
-            <h3 class="title-menu">BEBIDAS</h3>
-            <h3 class="sub-menu">y Jugos</h3>
+            <h3 class="title-menu">PATACONES &</h3>
+            <h3 class="sub-menu">Mazorcadas</h3>
          </div>
-         <div id="customers-testimonials" class="owl-carousel owl-theme owl-carousel-class">
+         <div id="customers-testimonials-3" class="owl-carousel owl-theme owl-carousel-3">
+            <!-- PATACONES -->
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/patacones/patacon-mixto.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Patacón Mixto</b></h3>
+                  <p class="menu__detail">Pollo desmechado, carne desmechada, ahogao y queso.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.000</b>
+                        </p>
+                        <a data-name="Patacón_Mixto" data-price="17000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/patacones/patacon-paisa.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Patacón Paisa</b></h3>
+                  <p class="menu__detail">Pollo desmechado, carne desmechada, ahogao, queso y frijol.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$18.000</b>
+                        </p>
+                        <a data-name="Patacón_Paisa" data-price="18000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/patacones/patacon-norteno.jpg" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Patacón Norteño</b></h3>
+                  <p class="menu__detail">Servido en salsa de champiñones, pollo, chorizo, maicitos y queso.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$19.000</b>
+                        </p>
+                        <a data-name="Patacón_Norteño" data-price="19000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+            <!-- MAZORCADA -->
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/mazorcada/mazorcada-4-carnes.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Mazorcada 4 Carnes</b></h3>
+                  <p class="menu__detail">Maicitos tiernos desgranados con carne de res, carne de cerdo, pollo, papa chip y queso.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$19.000</b>
+                        </p>
+                        <a data-name="Mazorcada_4_Carnes" data-price="19000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/mazorcada/mazorcada-pollo.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Mazorcada Pollo</b></h3>
+                  <p class="menu__detail">Maicitos tiernos desgranados con tocineta, jamón, carne de res y queso.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.000</b>
+                        </p>
+                        <a data-name="Mazorcada_Pollo" data-price="17000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/mazorcada/marzorcada-res.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Mazorcada Res</b></h3>
+                  <p class="menu__detail">Maicito tiernos desgranados con tocineta, jamón, carne de res y queso.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.000</b>
+                        </p>
+                        <a data-name="Mazorcada_Res" data-price="17000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/mazorcada/mazorcada-cerdo.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Mazorcada Cerdo</b></h3>
+                  <p class="menu__detail">Maicitos tiernos desgranados con tocineta, jamón, carne de cerdo y queso.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.500</b>
+                        </p>
+                        <a data-name="Mazorcada_Cerdo" data-price="17500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- END MAZORCADA Y PATACONES -->
+
+         <!-- QUESADILLAS Y NACHOS -->
+         <div class="heading" style="margin-bottom: -5rem">
+            <h3 class="title-menu">NACHOS &</h3>
+            <h3 class="sub-menu">Quesadillas</h3>
+         </div>
+         <div id="customers-testimonials-4" class="owl-carousel owl-theme owl-carousel-4">
+            <!-- NACHOS -->
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/nachos/nachos.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Nachos</b></h3>
+                  <p class="menu__detail">Exquisitos nachos para dos personas con pollo, carne de res, sour cream, servidas con pico de gallo y guacamole.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$20.500</b>
+                        </p>
+                        <a data-name="Nachos" data-price="20500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- QUESADILLAS -->
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/quesadilla/quesadilla-pollo-con-champinon.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Quesadilla Pollo Champiñones</b></h3>
+                  <p class="menu__detail">2 Exquisitas tortillas mexicanas rellenas de pollo, champiñones, queso, pico de gallo, sour cream y guacamole.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$18.000</b>
+                        </p>
+                        <a data-name="Quesadilla_Pollo_Champiñones" data-price="18000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/quesadilla/quesadillas-clasicas.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Quesadilla Clásica</b></h3>
+                  <p class="menu__detail">2 Exquisitas tortillas mexicanas rellenas de jamón, queso, vegetales, servidas con pico de gallo, sour cream y guacamole.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$15.500</b>
+                        </p>
+                        <a data-name="Quesadilla_Clásicas" data-price="15500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/quesadilla/quesadilla-3-carnes.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Quesadilla de 3 Carnes</b></h3>
+                  <p class="menu__detail">2 Exquisitas tortillas mexicanas rellenas de pollo, cerdo, res, servidas con pico de gallo, sour cream y guacamole.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$19.000</b>
+                        </p>
+                        <a data-name="Quesadilla_de_3_Carnes" data-price="19000"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/quesadilla/quesadilla-de-cerdo.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Quesadilla de Cerdo</b></h3>
+                  <p class="menu__detail">2 Exquisitas tortillas mexicanas rellenas con carne de cerdo, chorizo, maíz tierno, frijol y queso ahumado.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.500</b>
+                        </p>
+                        <a data-name="Quesadilla_de_Cerdo" data-price="17500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/quesadilla/quesadilla-hawaiana.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Quesadilla Hawaiana</b></h3>
+                  <p class="menu__detail">2 Exquisitas tortillas mexicanas rellenas de jamón, piña y sour cream.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$15.500</b>
+                        </p>
+                        <a data-name="Quesadilla_Hawaiana" data-price="15500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/quesadilla/quesadilla-ranchera.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Quesadilla Ranchera</b></h3>
+                  <p class="menu__detail">2 Exquisitas tortillas mexicanas rellenas de carne de cerdo, chorizo, queso amarillo y vegetales.</p>
+                  <div class="container">
+                     <div class="row details">
+                        <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$17.500</b>
+                        </p>
+                        <a data-name="Quesadilla_Ranchera" data-price="17500"
+                           class="add-to-cart btn btn-primary" style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- END QUESADILLAS Y NACHOS -->
+
+         <!-- HAMBURGUESAS Y PERROS -->
+         <div class="heading" style="margin-bottom: -5rem">
+            <h3 class="title-menu">PERROS &</h3>
+            <h3 class="sub-menu">Hamburguesas</h3>
+         </div>
+         <div id="customers-testimonials-5" class="owl-carousel owl-theme owl-carousel-5">
             <div class="item">
                <div class="menu__content">
                   <img src="images/menu/bebidas/jugo_natural_leche.png" alt="" class="menu__img">
@@ -614,7 +959,275 @@
                </div>
             </div>
          </div>
-         <!-- END BEBIDAS -->
+         <!-- END HAMBURGUESAS Y PERROS -->
+
+         <!-- TOSTONES Y AREPAS -->
+         <div class="heading" style="margin-bottom: -5rem">
+            <h3 class="title-menu">AREPAS &</h3>
+            <h3 class="sub-menu">Tostones</h3>
+         </div>
+         <div id="customers-testimonials-6" class="owl-carousel owl-theme owl-carousel-6">
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/jugo_natural_leche.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Jugos Naturales</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Jugos_Naturales" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/limonada.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Limonada Natural</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Limonada_Natural" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/gaseosa_600ml.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Gaseosa Postobon 600ml</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Gaseosa_Postobon_600ml" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/gaseosa_350ml.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Gaseosa Postobon 350ml</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Gaseosa_Postobon_350ml" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/gaseosa_1.5l.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Gaseosa Postobon 1.5lt</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Gaseosa_Postobon_1.5lt" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- END TOSTONES Y AREPAS -->
+
+         <!-- PINCHOS Y SALCHICHAS -->
+         <div class="heading" style="margin-bottom: -5rem">
+            <h3 class="title-menu">PINCHOS &</h3>
+            <h3 class="sub-menu">Salchipapas</h3>
+         </div>
+         <div id="customers-testimonials-7" class="owl-carousel owl-theme owl-carousel-7">
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/jugo_natural_leche.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Jugos Naturales</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Jugos_Naturales" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/limonada.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Limonada Natural</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Limonada_Natural" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/gaseosa_600ml.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Gaseosa Postobon 600ml</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Gaseosa_Postobon_600ml" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/gaseosa_350ml.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Gaseosa Postobon 350ml</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Gaseosa_Postobon_350ml" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/gaseosa_1.5l.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Gaseosa Postobon 1.5lt</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Gaseosa_Postobon_1.5lt" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- END PINCHOS Y SALCHICHAS -->
+
+         <!-- ADICIONALES Y BEBIDAS -->
+         <div class="heading" style="margin-bottom: -5rem">
+            <h3 class="title-menu">BEBIDAS &</h3>
+            <h3 class="sub-menu">Adicionales</h3>
+         </div>
+         <div id="customers-testimonials" class="owl-carousel owl-theme owl-carousel">
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/jugo_natural_leche.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Jugos Naturales</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Jugos_Naturales" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/limonada.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Limonada Natural</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Limonada_Natural" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/gaseosa_600ml.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Gaseosa Postobon 600ml</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Gaseosa_Postobon_600ml" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/gaseosa_350ml.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Gaseosa Postobon 350ml</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Gaseosa_Postobon_350ml" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="menu__content">
+                  <img src="images/menu/bebidas/gaseosa_1.5l.png" alt="" class="menu__img">
+                  <h3 class="menu__name"><b>Gaseosa Postobon 1.5lt</b></h3>
+                  <div class="container">
+                     <div class="row details">
+                        <!-- <p class="menu__preci col-sm-12 col-md-8 col-8 text-price"><b>$</b> -->
+                        </p>
+                        <a data-name="Gaseosa_Postobon_1.5lt" data-price="" class="add-to-cart btn btn-primary"
+                           style="margin: 1rem !important">
+                           <i class="fa fa-shopping-cart" style="font-size: 2rem;"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- END ADICIONALES Y BEBIDAS -->
+
       </section>
       <!-- menu section ends -->
 

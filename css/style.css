@@ -27,6 +27,7 @@
   --palet-1: #E4141D;
   --palet-2: #F8D116;
   --palet-3: #49AD33;
+  --animation-curve: cubic-bezier(0.05, 0.07, 0.052, 0.052);
 }
 
 * {
@@ -195,6 +196,27 @@ a:hover {
   color: var(--palet-3) !important;
 }
 
+.phone {
+  z-index: 2;
+  margin-right: 4rem;
+  color: white;
+  background-color: var(--grey);
+  animation: phone 1.5s var(--animation-curve) infinite alternate-reverse;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 0px white solid;
+}
+
+@keyframes phone {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -328,11 +350,13 @@ a:hover {
 }
 
 #customers-testimonials .item,
-#customers-testimonials-pizz .item,
-#customers-testimonials-acom .item,
-#customers-testimonials-beb .item,
-#customers-testimonials-ham .item,
-#customers-testimonials-esp .item {
+#customers-testimonials-1 .item,
+#customers-testimonials-2 .item,
+#customers-testimonials-3 .item,
+#customers-testimonials-4 .item,
+#customers-testimonials-5 .item,
+#customers-testimonials-6 .item,
+#customers-testimonials-7 .item {
   text-align: center;
   padding: 1.5rem;
   padding-top: 2rem;
@@ -346,11 +370,13 @@ a:hover {
 }
 
 #customers-testimonials .owl-item.active.center .item,
-#customers-testimonials-pizz .owl-item.active.center .item,
-#customers-testimonials-acom .owl-item.active.center .item,
-#customers-testimonials-beb .owl-item.active.center .item,
-#customers-testimonials-ham .owl-item.active.center .item,
-#customers-testimonials-esp .owl-item.active.center .item {
+#customers-testimonials-1 .owl-item.active.center .item,
+#customers-testimonials-2 .owl-item.active.center .item,
+#customers-testimonials-3 .owl-item.active.center .item,
+#customers-testimonials-4 .owl-item.active.center .item,
+#customers-testimonials-5 .owl-item.active.center .item,
+#customers-testimonials-6 .owl-item.active.center .item,
+#customers-testimonials-7 .owl-item.active.center .item {
   opacity: 1;
   -webkit-transform: scale3d(1.0, 1.0, 1);
   transform: scale3d(1.0, 1.0, 1);
