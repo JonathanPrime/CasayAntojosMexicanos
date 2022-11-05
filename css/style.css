@@ -1527,6 +1527,7 @@ input.whats-input[type=text]:focus {
   .heading .sub-menu {
     font-size: 8rem;
     line-height: 2;
+    margin-top: -7rem;
   }
 }
 
